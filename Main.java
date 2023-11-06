@@ -42,8 +42,9 @@ public class Main {
         student1.setLastName("Student");
         student1.Major = Major.ART;
         Student student2 = new Student();
-
-        System.out.println(student1.getFirstName() + " " + student1.getLastName());
+        //student1.PrintNames();
         System.out.println(student2);
+        student1.changeLastNameAndMajor("Wilcox", Major.IT);
+        System.out.println(student1);
     }
 }
